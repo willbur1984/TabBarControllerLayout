@@ -1,0 +1,25 @@
+PODS:
+  - Ditko (2.13.0):
+    - KSOFontAwesomeExtensions
+    - Loki
+    - Stanley
+  - KSOFontAwesomeExtensions (0.12.2):
+    - Stanley
+  - Loki (0.5.0)
+  - Quicksilver (1.0.4)
+  - Stanley (1.6.1)
+
+DEPENDENCIES:
+  - Ditko
+  - Quicksilver
+
+SPEC CHECKSUMS:
+  Ditko: 469b82859be968a34912a66f7c0659132871369a
+  KSOFontAwesomeExtensions: 27d5e331c306427d58da4ea160f13995b4e55e20
+  Loki: dc0ad0117e8f6ce2d51e6a142de6c02dc15f857a
+  Quicksilver: ca987e6064212866c52938cd662d8ae175d642ab
+  Stanley: 703c3cddc485f963b664183405c677528bffd4cb
+
+PODFILE CHECKSUM: c26f229e888720971cb5ef624f66c3758faec631
+
+COCOAPODS: 1.3.1

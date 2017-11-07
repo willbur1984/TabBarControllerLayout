@@ -1,0 +1,1 @@
+../../../Quicksilver/Quicksilver/NSString+KQSExtensions.h

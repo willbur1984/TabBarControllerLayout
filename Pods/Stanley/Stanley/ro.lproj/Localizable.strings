@@ -1,0 +1,6 @@
+﻿/* default error alert message */
+"ERROR_ALERT_DEFAULT_MESSAGE" = "Operația nu a putut fi completată.";
+
+/* default error alert title */
+"ERROR_ALERT_DEFAULT_TITLE" = "Eroare";
+

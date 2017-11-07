@@ -1,0 +1,6 @@
+﻿/* default error alert message */
+"ERROR_ALERT_DEFAULT_MESSAGE" = "操作を完了できませんでした。";
+
+/* default error alert title */
+"ERROR_ALERT_DEFAULT_TITLE" = "エラー";
+

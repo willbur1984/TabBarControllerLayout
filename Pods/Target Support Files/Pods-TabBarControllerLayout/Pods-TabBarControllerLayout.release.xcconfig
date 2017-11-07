@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Ditko" "${PODS_ROOT}/Headers/Public/KSOFontAwesomeExtensions" "${PODS_ROOT}/Headers/Public/Loki" "${PODS_ROOT}/Headers/Public/Quicksilver" "${PODS_ROOT}/Headers/Public/Stanley"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Ditko" "$PODS_CONFIGURATION_BUILD_DIR/KSOFontAwesomeExtensions" "$PODS_CONFIGURATION_BUILD_DIR/Loki" "$PODS_CONFIGURATION_BUILD_DIR/Quicksilver" "$PODS_CONFIGURATION_BUILD_DIR/Stanley"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Ditko" -isystem "${PODS_ROOT}/Headers/Public/KSOFontAwesomeExtensions" -isystem "${PODS_ROOT}/Headers/Public/Loki" -isystem "${PODS_ROOT}/Headers/Public/Quicksilver" -isystem "${PODS_ROOT}/Headers/Public/Stanley"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Ditko" -l"KSOFontAwesomeExtensions" -l"Loki" -l"Quicksilver" -l"Stanley" -framework "Accelerate" -framework "CoreGraphics" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
